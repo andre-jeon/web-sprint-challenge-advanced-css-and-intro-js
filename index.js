@@ -240,7 +240,7 @@ function get20s(arr){
 let artist20 = [];
 
   for(let i = 0; i < arr.length; i++){
-    if(arr[i].years === "1907 - 1954" || arr[i].years === "1904 - 1989"){
+    if(arr[i].years.includes("19")){
       artist20.push(arr[i])
     }
   }
