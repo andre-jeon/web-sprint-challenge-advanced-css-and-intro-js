@@ -264,7 +264,7 @@ function removeArtist(array, index){
     return array.length;
   }
   
- /*console.log(removeArtist(artists, 0));
+ console.log(removeArtist(artists, 0));
 
 /* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, add a 21st artist to the array (you) with custom information!👩‍🎨👨‍🎨
 
@@ -284,7 +284,6 @@ function addArtist(arr_id, arr_name, arr_years, arr_genre, arr_nationality, arr_
   }
 
 console.log(addArtist(21, "André Jeon", "1995 - 2020", "Web Design", "Korean-American", "lorem ipsum"));
-console.log(artists);
 
 /* Task 7: Create a function called lotsOfArt() that takes one argument: 
 
